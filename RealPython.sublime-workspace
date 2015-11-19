@@ -1,0 +1,1247 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sea",
+				"search_query	param"
+			],
+			[
+				"search_q",
+				"search_query"
+			],
+			[
+				"ge",
+				"getpid"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"cla",
+				"ClassName	class"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"PA",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"tr",
+				"text-transform"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"top",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bor",
+				"border-spacing"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"fonta",
+				"font-family"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"if",
+				"ifOpswise〔function〕"
+			],
+			[
+				"ex",
+				"extractall"
+			],
+			[
+				"c",
+				"closeConnection〔function〕"
+			],
+			[
+				"i",
+				"ifCFT〔function〕"
+			],
+			[
+				"veri",
+				"verifyServicesProcessMountsAIX〔function〕"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"fil",
+				"files"
+			],
+			[
+				"re",
+				"resolveOneshotSheet"
+			],
+			[
+				"e",
+				"extractall〔function〕"
+			],
+			[
+				"ro",
+				"rowx"
+			],
+			[
+				"file",
+				"filename〔argument〕"
+			],
+			[
+				"one",
+				"oneshot10〔class〕"
+			],
+			[
+				"get",
+				"getLastestFiles〔function〕"
+			],
+			[
+				"ut",
+				"utilities〔module〕"
+			],
+			[
+				"en",
+				"entries〔variable〕"
+			],
+			[
+				"ops",
+				"opswise"
+			],
+			[
+				"ssh",
+				"ssh=sshConnector"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"put",
+				"putFile"
+			],
+			[
+				"time",
+				"timeout"
+			],
+			[
+				"crea",
+				"createUser〔function〕"
+			],
+			[
+				"clo",
+				"closeConnection"
+			],
+			[
+				"set",
+				"setPassword〔function〕"
+			],
+			[
+				"cr",
+				"createUserFromReferences"
+			],
+			[
+				"getUser",
+				"getUsersLike"
+			],
+			[
+				"cre",
+				"createUser〔function〕"
+			],
+			[
+				"enab",
+				"enableAgent"
+			],
+			[
+				"create",
+				"createUser"
+			],
+			[
+				"gene",
+				"generateModuloPassword〔function〕"
+			],
+			[
+				"enabl",
+				"enable"
+			],
+			[
+				"user",
+				"getUserInfo〔function〕"
+			],
+			[
+				"getm",
+				"generateModuloPassword〔function〕"
+			],
+			[
+				"creat",
+				"createNIUser"
+			],
+			[
+				"draw",
+				"drawControls"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"mo",
+				"mouseY"
+			],
+			[
+				"mou",
+				"mouseY〔variable〕"
+			],
+			[
+				"mouse",
+				"mouseX〔variable〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"control",
+				"controls〔variable〕"
+			],
+			[
+				"strok",
+				"strokeStyle"
+			],
+			[
+				"conte",
+				"context〔variable〕"
+			],
+			[
+				"controls",
+				"controlsColor〔variable〕"
+			],
+			[
+				"con",
+				"controls〔variable〕"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"revok",
+				"revokeRoles"
+			],
+			[
+				"ss",
+				"sshConnector〔class〕"
+			],
+			[
+				"opswi",
+				"opswisea"
+			],
+			[
+				"crear",
+				"createUser"
+			],
+			[
+				"setp",
+				"setPassword"
+			],
+			[
+				"str",
+				"strip"
+			],
+			[
+				"setpa",
+				"setPassword"
+			],
+			[
+				"no",
+				"noOfCPU"
+			],
+			[
+				"st",
+				"strip"
+			],
+			[
+				"dis",
+				"disableAgent"
+			],
+			[
+				"pro",
+				"profile〔variable〕"
+			],
+			[
+				"pas",
+				"password10"
+			],
+			[
+				"TE",
+				"TE_AGENT"
+			],
+			[
+				"getp",
+				"getPassword〔function〕"
+			],
+			[
+				"add",
+				"addHostname"
+			],
+			[
+				"list",
+				"listOfTriggers"
+			],
+			[
+				"enable",
+				"enableTriggers"
+			],
+			[
+				"host",
+				"hostname"
+			],
+			[
+				"conne",
+				"connectDB"
+			],
+			[
+				"UserP",
+				"UserProfileForm〔class〕"
+			],
+			[
+				"Mode",
+				"ModelForm	ModelForm"
+			],
+			[
+				"trigger",
+				"trigger_status〔argument〕"
+			],
+			[
+				"t",
+				"listOfTriggers〔function〕"
+			],
+			[
+				"prop",
+				"property	New Property"
+			],
+			[
+				"wr",
+				"writeLog"
+			],
+			[
+				"comma",
+				"commandDB"
+			],
+			[
+				"data",
+				"database:AGGSDB"
+			],
+			[
+				"filter",
+				"filterStatus〔argument〕"
+			],
+			[
+				"task",
+				"taskStatus"
+			],
+			[
+				"P",
+				"PRIMARY"
+			],
+			[
+				"pl",
+				"plpass〔argument〕"
+			],
+			[
+				"unlo",
+				"unlockAccount"
+			],
+			[
+				"comm",
+				"commandDB"
+			],
+			[
+				"pass",
+				"password〔variable〕"
+			],
+			[
+				"ims",
+				"imsTemp〔variable〕"
+			],
+			[
+				"grant",
+				"grantRoles"
+			],
+			[
+				"us",
+				"getUserInfo〔function〕"
+			],
+			[
+				"unl",
+				"unlockAccount"
+			],
+			[
+				"gener",
+				"generateModuloPassword"
+			],
+			[
+				"clos",
+				"closeConnection"
+			],
+			[
+				"acc",
+				"accountStatus"
+			],
+			[
+				"err",
+				"error〔class〕"
+			],
+			[
+				"tar",
+				"tarFile"
+			],
+			[
+				"da",
+				"database"
+			],
+			[
+				"User",
+				"Username"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"whi",
+				"which"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Flask/app.py",
+			"settings":
+			{
+				"buffer_size": 752,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "chapter_6/sql/sqla.py",
+			"settings":
+			{
+				"buffer_size": 210,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 249.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gitd",
+				"Git: Diff All"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"pu",
+				"Git: Pull"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"latexmk",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/macher/RealPython",
+		"/home/macher/RealPython/chapter_6",
+		"/home/macher/RealPython/chapter_6/sql"
+	],
+	"file_history":
+	[
+		"/home/macher/RealPython/Flask/sql/sqla.py",
+		"/home/macher/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/macher/Desktop/forki.py",
+		"/home/macher/workspace/galeria_nikisz_new/hex.py",
+		"/home/macher/workspace/galeria_nikisz_new/morse.py",
+		"/home/macher/workspace/galeria_nikisz_new/morse.txt",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/common/success.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/module/category.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/static/css/style.css",
+		"/home/macher/workspace/galeria_nikisz_new/index.html",
+		"/home/macher/workspace/galeria_nikisz_new/test.bin",
+		"/home/macher/Downloads/eQLoTyLsCtE.7z",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/language/polish/account/success.php",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/shipping_method.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/payment_method.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/account/account.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/account/order_list.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/cart.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/module/cart.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/checkout.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/shipping_address.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/payment_address.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/register.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/payment/przelewy24_failure.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/payment/przelewy24.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/javascript/common.js",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/confirm.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/vqmod/xml/active_links.xml",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/common/header.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/login.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/common/footer.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/module/latest.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/common/column_left.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/account/password.tpl",
+		"/tmp/sublime-sftp-browse-1443714436/mapped/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout/cart.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/module/sidecart.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/product/category.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/common/content_top.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/default/template/module/maintenance/maintenance.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz (copy)/template/module/sidecart.tpl",
+		"/home/macher/Desktop/temp.html",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/default/stylesheet/maintenance.css",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/sftp-config.json",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz (copy)/template/module/latest.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/account/register.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/stylesheet/style.css",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/account/login.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/default/template/account/login.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/default/template/account/register.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/default/template/account/account.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/product/product.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/common/home.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/module/special.tpl",
+		"/home/macher/workspace/galeria_nikisz_new/static/css/latofonts.css",
+		"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/module/featured.tpl",
+		"/home/macher/.config/sublime-text-3/Packages/SFTP/Default (Linux).sublime-keymap",
+		"//spplfapisp02/Userdata/B0639472/Desktop/SC-API-0.0.2/Makefile.PL",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/sql/150910/OpRequestCLS_MFA_2011 - CretaFileMFA - BETA-Step2/asdsadsadsad.msg",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD02A303A0/[1]Ole10Native",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD02A3888E/[1]Ole10Native",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD02A354F2/[1]Ole10Native",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD035713AE/[1]Ole10Native",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD00B6FCF2/[1]Ole10Native",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD00A948C1/[1]Ole10Native",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/VBA/_VBA_PROJECT",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/VBA/ThisWorkbook",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/VBA/Sheet3",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/VBA/dir",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/VBA/Sheet2",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/VBA/Module1",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/VBA/Sheet1",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/PROJECT",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/_VBA_PROJECT_CUR/PROJECTwm",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD00A948C1/[1]CompObj",
+		"/C/Python27/share/misc/magic",
+		"/C/Python27/share/misc/magic.mgc",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/[5]SummaryInformation",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/[5]DocumentSummaryInformation",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/[3]ObjInfo",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/[1]CompObj",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/Workbook",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/[1]Ole",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MsoDataStore/5×Ç00COÕ×U0ßÀÂ1ZSÂZDYQ==/Item",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MsoDataStore/ÚIDÐÂÖÌGÆÄÚUÏÃÖÂPÅECAÀ==/Properties",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MsoDataStore/ÚIDÐÂÖÌGÆÄÚUÏÃÖÂPÅECAÀ==/Item",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MsoDataStore/5×Ç00COÕ×U0ßÀÂ1ZSÂZDYQ==/Properties",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/oneshot/Dataoneshot_gsp_9lu_broker_config - Kopia/MBD02A3888E/[1]CompObj",
+		"/C/Python27/Lib/site-packages/paramiko/util.py",
+		"/C/Python27/Lib/site-packages/paramiko/__init__.py",
+		"/C/Python27/Lib/site-packages/paramiko/transport.py",
+		"/C/Python27/Lib/site-packages/Crypto/Util/Counter.py",
+		"/C/Python27/Lib/site-packages/Crypto/Util/_counter.pyd",
+		"/C/Users/B0639472/Documents/isp/isp/AAA1.txt",
+		"/C/Users/B0639472/Documents/isp/isp/AAA.txt",
+		"//spplfapisp02/Userdata/B0639472/Desktop/SC-API-0.0.2/lib/SC/API.pm",
+		"/C/Users/B0639472/Documents/isp/isp/urls.py",
+		"/C/Users/B0639472/Documents/isp/isp/static/common/db_list.csv",
+		"/C/Users/B0639472/Documents/isp/isp/outlook.py",
+		"/C/Users/B0639472/AppData/Local/Temp/scp40110/home/users/terraarte/public_html/opencart/catalog/view/theme/galeriaNikisz/template/common/header.tpl",
+		"/C/Users/B0639472/AppData/Local/Temp/scp54975/home/users/terraarte/public_html/opencart/catalog/view/theme/galeriaNikisz/stylesheet/stylesheet.css",
+		"/C/Users/B0639472/AppData/Local/Temp/scp04292/home/users/terraarte/public_html/opencart/catalog/view/theme/galeriaNikisz/stylesheet/stylesheet.css",
+		"/C/Python27/Lib/site-packages/oletools/olebrowse.py",
+		"/C/Python27/Lib/site-packages/oletools/rtfobj.py",
+		"/C/Users/B0639472/Downloads/Dataoneshot_sbbmig_ord_setclex_status_632 (1)/MsoDataStore/5×Ç00COÕ×U0ßÀÂ1ZSÂZDYQ==/Properties",
+		"/C/Users/B0639472/Downloads/Dataoneshot_sbbmig_ord_setclex_status_632 (1)/MsoDataStore/5×Ç00COÕ×U0ßÀÂ1ZSÂZDYQ==/Item",
+		"/C/Users/B0639472/Downloads/Dataoneshot_sbbmig_ord_setclex_status_632 (1)/[5]SummaryInformation",
+		"/C/Users/B0639472/Downloads/Dataoneshot_sbbmig_ord_setclex_status_632 (1)/Workbook",
+		"/C/Users/B0639472/Downloads/Dataoneshot_sbbmig_ord_setclex_status_632 (1)/[5]DocumentSummaryInformation",
+		"/C/Users/B0639472/Downloads/Dataoneshot_sbbmig_ord_setclex_status_632 (1)/[1]CompObj",
+		"/C/Users/B0639472/Documents/isp/isp/opsAll.txt",
+		"/C/Users/B0639472/Documents/isp/isp/outlook_find.py",
+		"/C/Users/B0639472/Documents/isp/isp/oracle.py",
+		"//spplfapisp02/Userdata/B0639472/Desktop/jumpbox4.rdp",
+		"/C/Users/B0639472/Documents/isp/isp/static/pys/dbModels/user.py",
+		"/C/Users/B0639472/Downloads/Kivy-1.8.0-py2.7-win32/Python27/Lib/distutils/cygwinccompiler.py",
+		"/C/Users/B0639472/Documents/isp/isp/opswise.py",
+		"/C/Users/B0639472/Documents/isp/isp/ftp/Upgrade_252_AIX_OMS_Prd.txt",
+		"//spplfapisp02/Userdata/B0639472/Desktop/ZXMP6A17.scr",
+		"/C/Users/B0639472/Documents/isp/isp/sshConnector.py",
+		"/C/temp/PB.log",
+		"/C/Users/B0639472/Documents/isp/isp/outlookContacts.csv",
+		"/C/temp/mov.ksh",
+		"/C/Users/B0639472/Documents/isp/isp/logsDB.txt",
+		"/C/temp/list_delete_pdf_2011_48067Files.sh",
+		"/C/temp/list_delete_pdf_2010_22719Files.sh",
+		"/C/temp/list_delete_pdf_2012_55011Files.sh",
+		"/C/Users/B0639472/Documents/isp/isp/bazy.txt",
+		"/C/Users/B0639472/Book4.csv"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template/checkout",
+			"/home/macher/workspace/galeria_nikisz_new/ftp/public_html/opencart/catalog/view/theme/galeriaNikisz/template"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"pipe",
+			"()\n",
+			"tpl",
+			"empty",
+			"cart",
+			"h1",
+			"cart-in",
+			"h1",
+			"navba",
+			"nav",
+			"ul",
+			"L",
+			"pagination",
+			"container-fluid",
+			"conta",
+			"fote",
+			"suc",
+			"lef",
+			"medium",
+			"input",
+			"buttons",
+			"selec",
+			"inp",
+			"colorbox",
+			".right",
+			"label",
+			"button",
+			"nu",
+			"butt",
+			"buttn",
+			"button",
+			"ship",
+			"righ",
+			"a",
+			".right",
+			"inpu",
+			"sty",
+			"sty;",
+			".right",
+			"class=\"r",
+			"remove",
+			"catalog/view/theme/default/remo",
+			"catalog/view/theme/default/",
+			"remove.png",
+			"catalog/view/theme/default/image/remove.png",
+			"catalog/view/theme/default/image/remove.",
+			"catalog/view/theme/",
+			"remove",
+			"bread",
+			"dis",
+			"table",
+			"td",
+			"table",
+			"updateProductListByCart()",
+			"170",
+			"image",
+			"thumb",
+			"product-grid",
+			"grid",
+			"<span class=\"required\">*</span>",
+			"%;\n",
+			"h1",
+			"attr",
+			"cart",
+			"side",
+			"cont",
+			"contet",
+			"DSC09035-170x170.JPG",
+			"col-xs-12 col-sm-6 col-md-4 col-lg-3",
+			"product",
+			"../fonts/lato/",
+			"../fonts/",
+			"LatoRegular",
+			"fonts/",
+			"LatoWeb",
+			";\n",
+			"oracle",
+			"MX73CP",
+			"cpe",
+			"]))})",
+			"1",
+			"zipfile",
+			"fp",
+			"cat",
+			"ifitm",
+			"l",
+			"connect",
+			"yes",
+			"radius",
+			"che",
+			"product-lis",
+			"\\",
+			".* = ",
+			".*\\n.*\\n\\n",
+			"ddl",
+			" command",
+			"	command",
+			" command",
+			"command",
+			"itm",
+			"pass",
+			"md5sum",
+			"\\",
+			"send",
+			"9999",
+			"mnt",
+			"identi",
+			", 'oracle] '",
+			"#.*",
+			", \"oracle] \"",
+			", \"/opswise/bin] \"",
+			"timeout",
+			"ls",
+			"mgt",
+			", ",
+			".*\\n.*\\n.*\\n.*\\n",
+			".*: \\[]",
+			"`",
+			"'\"]",
+			"\\: \\[\"chown: ",
+			"\\n\\n",
+			".*invalid.*",
+			" : invalid",
+			"`",
+			"'",
+			"\"]",
+			"[\"chown: ",
+			"\\n\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"zdj2.jpg",
+			"col-xs-12 col-sm-6 col-md-6 col-lg-4",
+			"../fonts/Lato/",
+			"Lato",
+			"../fonts/",
+			"Lato",
+			"IQ92OJ",
+			"/",
+			"//",
+			"/",
+			"",
+			"\\n",
+			"-.*invalid.*",
+			" invalid",
+			"\n invalid\n",
+			"",
+			"\\n",
+			"\\\"",
+			"\\n",
+			"",
+			"IQ92OJ",
+			"",
+			"A",
+			"",
+			",",
+			"\n,\nYour accounts has been created. New password is: ",
+			"\n\\nHi,\nYour accounts has been created. New password is: ",
+			"\\nHi,\n\\nHi,\nYour accounts has been created. New password is: ",
+			"\\nHi,\n\\nHi,\nYour accounts has been created. New password is: \n",
+			"Hi,\n\\nHi,\nYour accounts has been created. New password is: \n",
+			"Hi,\n\\nHi,\nYour accounts has been created. New password is: \n\n",
+			"Hi,\nYour accounts has been created. New password is: ",
+			"Hi,\nYour accounts has been created. New password is: \n",
+			"^Hi,\nYour accounts has been created. New password is: \n",
+			"",
+			"\\n",
+			" ",
+			"\\n",
+			"mentioned",
+			"\\n",
+			";",
+			"\\t",
+			";",
+			"\\",
+			"",
+			"*PRD",
+			"/opt/DWH/Interfaces/MART/script",
+			":",
+			"",
+			":",
+			"",
+			"timeout\\n\\n",
+			"timeout\\n",
+			"dont exist.\\n",
+			"\\n",
+			"",
+			"online",
+			"alter",
+			";",
+			"",
+			"USER",
+			"",
+			"U_951110460",
+			"U_910112297",
+			"U_941207164",
+			"U_751015830",
+			"U_710731831",
+			"U_710618360",
+			"U_680602419",
+			"U_701019505",
+			"U_590716357",
+			"U_860622796",
+			"U_830620393",
+			"U_740825675",
+			"740825675",
+			"U_861115072",
+			"U_790725307",
+			"U_660422678",
+			"U_920812613",
+			"U_861219045",
+			"U_900212641",
+			"U_860909352",
+			"",
+			":",
+			"",
+			":",
+			"",
+			" ",
+			"",
+			"echo \"<span style=\\\"",
+			" Na zamówienie ",
+			"catalog/view/theme/*/template/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Flask/app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chapter_6/sql/sqla.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 189.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 116.0
+	},
+	"output.sftp":
+	{
+		"height": 116.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "RealPython.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
