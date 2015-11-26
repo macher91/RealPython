@@ -2,4 +2,6 @@ RealPythonPart1-v1.0.1/
 RealPythonPart2-v1.0.1/
 RealPythonPart1-v1.0.1/
 RealPythonPart*/
-
+*.pyc
+__pycache__
+*.DS_Store
