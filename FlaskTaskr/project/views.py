@@ -1,14 +1,18 @@
+from forms import AddTaskForm, RegisterForm, LoginForm
+import models
+
 import sqlite3
 import flask
 from functools import wraps
-from forms import AddTaskForm
+from flask.ext.sqlalchemy import SQLAlchemy
 
 app = flask.Flask(__name__)
 app.config.from_object('_config')
+db = SQLAlchemy(app)
 
 
-def connect_db():
-    return sqlite3.connect(app.config['DATABASE_PATH'])
+# def connect_db():
+#     return sqlite3.connect(app.config['DATABASE_PATH'])
 
 
 def login_required(test):
@@ -43,28 +47,11 @@ def login():
     return flask.render_template('login.html')
 
 
-@app.route('/stats/')
+@app.route('/tasks/')
 @login_required
 def tasks():
-    flask.g.db = connect_db()
-    cur = flask.g.db.execute(
-        'SELECT name, due_date, priority, task_id \
-        FROM tasks \
-        WHERE status=1')
-    open_tasks = [dict(
-        name=row[0], due_date=row[1],
-        priority=row[2], task_id=row[3])
-        for row in cur.fetchall()]
-    cur = flask.g.db.execute(
-        'SELECT name, due_date, priority, task_id \
-        FROM tasks \
-        WHERE status=0')
-    closed_tasks = [dict(
-        name=row[0], due_date=row[1],
-        priority=row[2], task_id=row[3])
-        for row in cur.fetchall()
-    ]
-    flask.g.db.close()
+    open_tasks = db.session.query(models.Task).filter_by(status='1').order_by(models.Task.due_date.asc())
+    closed_tasks = db.session.query(models.Task).filter_by(status='0').order_by(models.Task.due_date.asc())
     return flask.render_template(
         'tasks.html',
         form=AddTaskForm(flask.request.form),
@@ -75,35 +62,19 @@ def tasks():
 @app.route('/add/', methods=['POST', ])
 @login_required
 def new_task():
-    flask.g.db = connect_db()
-    name = flask.request.form['name']
-    date = flask.request.form['due_date']
-    priority = flask.request.form['priority']
-    if not name or not date or not priority:
-        flask.flash("All fields are required. Please try again")
-        return flask.redirect(flask.url_for('tasks'))
-    else:
-        flask.g.db.execute("INSERT INTO tasks (name, due_date, priority, status) \
-                           VALUES(?, ?, ?, 1) ",
-                           [name, date, priority]
-                           )
-        flask.g.db.commit()
-        flask.g.db.close()
+    form = AddTaskForm(flask.request.form)
+    if form.validate_on_submit():
+        db.session.add(models.Task(form.name.data, form.date.data, form.priority.data, '1'))
+        db.session.commit()
         flask.flash('New entry was successfully posted. Thanks!')
-        return flask.redirect(flask.url_for('tasks'))
+    return flask.redirect(flask.url_for('tasks'))
 
 
 @app.route('/complete/<int:task_id>')
 @login_required
 def complete():
-    flask.g.db = connect_db()
-    flask.g.db.execute("UPDATE tasks \
-                        SET status = 0 \
-                        WHERE task_id==?",
-                        [task_id, ]
-                       )
-    flask.g.db.commit()
-    flask.g.db.close()
+    db.session.query(models.Task).filter_by(task_id=task_id).update({"status":"0"})
+    db.session.commit()
     flask.flash("The task has been marked as complete.")
     return flask.redirect(flask.url_for("tasks"))
 
@@ -111,12 +82,7 @@ def complete():
 @app.route('/delete/<int:task_id>')
 @login_required
 def delete_entry():
-    flask.g.db = connect_db()
-    flask.g.db.execute("DELETE FROM tasks \
-                        WHERE task_id==?",
-                        [task_id, ]
-                       )
-    flask.g.db.commit()
-    flask.g.db.close()
+    db.session.query(models.Task).filter_by(task_id=task_id).delete()
+    db.session.commit()
     flask.flash("The task has been deleted.")
     return flask.redirect(flask.url_for("tasks"))
