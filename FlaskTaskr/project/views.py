@@ -1,18 +1,15 @@
 from forms import AddTaskForm, RegisterForm, LoginForm
-import models
-
-import sqlite3
 import flask
 from functools import wraps
 from flask.ext.sqlalchemy import SQLAlchemy
+import datetime
 
 app = flask.Flask(__name__)
 app.config.from_object('_config')
 db = SQLAlchemy(app)
 
+from models import Task, User
 
-# def connect_db():
-#     return sqlite3.connect(app.config['DATABASE_PATH'])
 
 
 def login_required(test):
@@ -35,23 +32,35 @@ def logout():
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
+
+    error = None
+    form = LoginForm(flask.request.form)
     if flask.request.method == 'POST':
-        if flask.request.form['username'] != app.config['USERNAME'] \
-                or flask.request.form['password'] != app.config['PASSWORD']:
-            error = 'Invalid Credentials. Please try again.'
-            return flask.render_template('login.html', error=error)
+        if form.validate_on_submit():
+            user = User.query.filter_by(
+                    name=flask.request.form['name']
+                ).first()
+            if (user is not None and
+               user.password == flask.request.form['password']):
+
+                flask.session['logged_in'] = True
+                flask.flash('Welcome!')
+
+                return flask.redirect(flask.url_for('tasks'))
+            else:
+                error = 'Invalid username or password.'
         else:
-            flask.session['logged_in'] = True
-            flask.flash('Welcome!')
-            return flask.redirect(flask.url_for('tasks'))
-    return flask.render_template('login.html')
+            error = "Both fields are required"
+    return flask.render_template('login.html', form=form, error=error)
 
 
 @app.route('/tasks/')
 @login_required
 def tasks():
-    open_tasks = db.session.query(models.Task).filter_by(status='1').order_by(models.Task.due_date.asc())
-    closed_tasks = db.session.query(models.Task).filter_by(status='0').order_by(models.Task.due_date.asc())
+    open_tasks = db.session.query(Task).\
+        filter_by(status='1').order_by(Task.due_date.asc())
+    closed_tasks = db.session.query(Task).\
+        filter_by(status='0').order_by(Task.due_date.asc())
     return flask.render_template(
         'tasks.html',
         form=AddTaskForm(flask.request.form),
@@ -64,7 +73,14 @@ def tasks():
 def new_task():
     form = AddTaskForm(flask.request.form)
     if form.validate_on_submit():
-        db.session.add(models.Task(form.name.data, form.date.data, form.priority.data, '1'))
+        db.session.add(Task(
+            form.name.data,
+            form.due_date.data,
+            form.priority.data,
+            datetime.datetime.utcnow(),
+            "1",
+            '1')
+        )
         db.session.commit()
         flask.flash('New entry was successfully posted. Thanks!')
     return flask.redirect(flask.url_for('tasks'))
@@ -72,8 +88,9 @@ def new_task():
 
 @app.route('/complete/<int:task_id>')
 @login_required
-def complete():
-    db.session.query(models.Task).filter_by(task_id=task_id).update({"status":"0"})
+def complete(task_id):
+    db.session.query(Task).\
+        filter_by(task_id=task_id).update({"status": "0"})
     db.session.commit()
     flask.flash("The task has been marked as complete.")
     return flask.redirect(flask.url_for("tasks"))
@@ -81,8 +98,8 @@ def complete():
 
 @app.route('/delete/<int:task_id>')
 @login_required
-def delete_entry():
-    db.session.query(models.Task).filter_by(task_id=task_id).delete()
+def delete_entry(task_id):
+    db.session.query(Task).filter_by(task_id=task_id).delete()
     db.session.commit()
     flask.flash("The task has been deleted.")
     return flask.redirect(flask.url_for("tasks"))
@@ -90,14 +107,15 @@ def delete_entry():
 
 @app.route('/register/', methods=['GET', 'POST', ])
 def register():
-    error = none
+    error = None
     form = RegisterForm(flask.request.form)
     if flask.request.method == 'POST':
         if form.validate_on_submit():
-            new_user = models.User(form.name.data, 
-                                    form.email.data, 
-                                    form.password.data
-                                )
+            new_user = User(
+                form.name.data,
+                form.email.data,
+                form.password.data
+            )
             db.session.add(new_user)
             db.session.commit()
             flask.flash('Thanks for registering. Please login!')
