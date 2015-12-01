@@ -86,3 +86,20 @@ def delete_entry():
     db.session.commit()
     flask.flash("The task has been deleted.")
     return flask.redirect(flask.url_for("tasks"))
+
+
+@app.route('/register/', methods=['GET', 'POST', ])
+def register():
+    error = none
+    form = RegisterForm(flask.request.form)
+    if flask.request.method == 'POST':
+        if form.validate_on_submit():
+            new_user = models.User(form.name.data, 
+                                    form.email.data, 
+                                    form.password.data
+                                )
+            db.session.add(new_user)
+            db.session.commit()
+            flask.flash('Thanks for registering. Please login!')
+            return flask.redirect(flask.url_for('login'))
+    return flask.render_template('register.html', form=form, error=error)
