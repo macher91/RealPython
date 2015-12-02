@@ -11,7 +11,6 @@ db = SQLAlchemy(app)
 from models import Task, User
 
 
-
 def login_required(test):
     @wraps(test)
     def wrap(*args, **kwargs):
@@ -21,6 +20,13 @@ def login_required(test):
             flask.flash("You need to login first.")
             return flask.redirect(flask.url_for('login'))
     return wrap
+
+
+def flash_errors(form):
+    for field, errors in form.errors.items():
+        for error in errors:
+            flask.flash(u"Error in the %s field - %s" % (
+                getattr(form, field).label.text, error), 'error')
 
 
 @app.route('/logout/')
@@ -71,19 +77,25 @@ def tasks():
 @app.route('/add/', methods=['POST', ])
 @login_required
 def new_task():
+    error = None
     form = AddTaskForm(flask.request.form)
-    if form.validate_on_submit():
-        db.session.add(Task(
-            form.name.data,
-            form.due_date.data,
-            form.priority.data,
-            datetime.datetime.utcnow(),
-            flask.session['user_id'],
-            '1')
-        )
-        db.session.commit()
-        flask.flash('New entry was successfully posted. Thanks!')
-    return flask.redirect(flask.url_for('tasks'))
+    if flask.request.method == "POST":
+        if form.validate_on_submit():
+            db.session.add(Task(
+                form.name.data,
+                form.due_date.data,
+                form.priority.data,
+                datetime.datetime.utcnow(),
+                flask.session['user_id'],
+                '1')
+            )
+            db.session.commit()
+            flask.flash('New entry was successfully posted. Thanks!')
+            return flask.redirect(flask.url_for('tasks'))
+        else:
+            return flask.render_template("tasks.html", form=form, error=error)
+
+    return flask.render_template("tasks.html", form=form, error=error)
 
 
 @app.route('/complete/<int:task_id>')

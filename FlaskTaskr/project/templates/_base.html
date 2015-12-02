@@ -3,6 +3,17 @@
 <head>
 	<title>Welcome to FlaskTaskr</title>
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css' )}}">
+{# 	{% macro full_input( input, verbose ) %}
+
+		{{ input(placeholder="verbose") }}
+	    {% if form.name.errors %}
+	    <span class='error'>
+	        {% for error in form.name.errors %}
+	            {{ error }}
+	        {% endfor %}
+	    </span>
+	    {% endif %}
+	{%- endmacro %} #}
 </head>
 <body>
 	<div class="page">
