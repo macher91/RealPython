@@ -26,6 +26,7 @@ def login_required(test):
 @app.route('/logout/')
 def logout():
     flask.session.pop('logged_in', None)
+    flask.session.pop('user_id', None)
     flask.flash("Goodbye!")
     return flask.redirect(flask.url_for('login'))
 
@@ -42,10 +43,9 @@ def login():
                 ).first()
             if (user is not None and
                user.password == flask.request.form['password']):
-
                 flask.session['logged_in'] = True
+                flask.session['user_id'] = user.id
                 flask.flash('Welcome!')
-
                 return flask.redirect(flask.url_for('tasks'))
             else:
                 error = 'Invalid username or password.'
@@ -78,7 +78,7 @@ def new_task():
             form.due_date.data,
             form.priority.data,
             datetime.datetime.utcnow(),
-            "1",
+            flask.session['user_id'],
             '1')
         )
         db.session.commit()
